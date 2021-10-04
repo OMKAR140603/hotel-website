@@ -60,12 +60,12 @@ h2 {
      /* transform-origin: bottom; */
      /* transform-origin: left;
       */
-      transform-origin: center;
+      transform-origin: bottom;
   
     transform: rotateX(330deg);
     line-height: 0.85em;
 
-    background-image: linear-gradient(0deg, #ff02f2 0, transparent 1995%);
+    background-image: linear-gradient(0deg, #81d423 0, transparent 1995%);
     -webkit-background-clip: text;
     color: transparent;         
     opacity: 0.4;

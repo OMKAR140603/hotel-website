@@ -12,6 +12,7 @@ body::before{
     content: "";
     z-index: -1;
     width: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .parent{
     display: flex;
@@ -21,16 +22,51 @@ body::before{
     padding: 20px;
     flex-wrap: wrap;
     /* border: 3px solid red; */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(18, 14, 252);
+    z-index: -1;
+    font-size: 15px;
 }
 .container{
     border: 3px solid red;
     height: 200px;
     width: 400px;
     text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-left-color: blueviolet ;
+    border-right-color: orangered ;
+    border-top-color: green;
+    border-bottom-color: goldenrod;
 }
 .container-1{
     border: 3px solid red;
     height: 200px;
     width: 200px;
     text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-left-color: blueviolet ;
+    border-right-color: orangered ;
+    border-top-color: green;
+    border-bottom-color: goldenrod;
+}
+h3{
+    color: blueviolet;
+     font-size: 30px;
+     text-align: center;
+}
+h3:hover{
+    color: purple;
+    font-size: 30px;
+    box-shadow: 0 0 100px rgb(153, 34, 34);
+}
+h1{
+    color: blueviolet;
+    font-size: 30px;
+    text-align: center;
+
+}
+h1:hover{
+    color: purple;
+    font-size: 30px;
+    box-shadow: 0 0 100px rgb(153, 34, 34);
 }
