@@ -31,16 +31,12 @@ body::before{
     z-index: -1;
     width: 100%;
 }
-.first{
-}
-.second{
-  
-}
+
 .first img{
       display: flex;
       flex-direction: row;
     text-align: center;
-
+     flex-wrap: wrap;
     border: 2px solid red;
     height: 150px;
     width: 150px;
@@ -78,6 +74,7 @@ body::before{
     justify-content: center;
     padding: 30px;
     margin-top: 390px;
+    flex-wrap: wrap;
    
 }
 /* .parent:hover,.parent-1:hover,.parent-2:hover,.parent:hover,.parents:hover,.parent-3:hover{
@@ -90,7 +87,7 @@ body::before{
     justify-content: space-around;
     padding: 30px;
     word-spacing: 180px;
-
+     flex-wrap: wrap;
 
 }
 .parent-2{
@@ -98,18 +95,21 @@ body::before{
     justify-content: space-around;
     padding: 30px;
     word-spacing: 200px;
+    flex-wrap: wrap;
 }
 .parent-3{
     display: flex;
     justify-content: space-around;
     padding: 30px;
     word-spacing: 160px;
+    flex-wrap: wrap;
 }
 .parents{
     display: flex;
     justify-content: center;
     padding: 30px;
     /* margin-top: 390px; */
+    flex-wrap: wrap;
 }
 .design{
     border: 5px solid blueviolet;

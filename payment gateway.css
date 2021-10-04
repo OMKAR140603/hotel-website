@@ -200,6 +200,7 @@ h2 {
         background-size: contain;
         /* display: flex; */
         flex-direction: row;
+        flex-wrap: wrap;
 
   }
   .options-1 {
@@ -229,6 +230,7 @@ h2 {
     background-size: contain;
     /* display: flex; */
     flex-direction: row;
+    flex-wrap: wrap;
       
       
   }
@@ -259,6 +261,7 @@ h2 {
     background-size: contain;
     /* display: flex; */
     flex-direction: row;
+    flex-wrap: wrap;
       
       
   }
@@ -289,12 +292,14 @@ h2 {
     background-size: contain;
     /* display: flex; */
     flex-direction: row;
+    flex-wrap: wrap;
       
       
   }
   .parent{
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
   }
   .options-4 {
     border: 2px solid red;
@@ -323,6 +328,7 @@ h2 {
     background-size: contain;
     /* display: flex; */
     flex-direction: row;
+    flex-wrap: wrap;
       
       
   }
@@ -353,6 +359,7 @@ h2 {
     background-size: contain;
     /* display: flex; */
     flex-direction: row;
+    flex-wrap: wrap;
       
       
   }
@@ -383,6 +390,7 @@ h2 {
     background-size: contain;
     /* display: flex; */
     flex-direction: row;
+    flex-wrap: wrap;
       
       
   }
@@ -413,6 +421,7 @@ h2 {
     background-size: contain;
     /* display: flex; */
     flex-direction: row;
+    flex-wrap: wrap;
       
       
   }
@@ -523,6 +532,7 @@ h2 {
     background-size: contain;
     /* display: flex; */
     flex-direction: row;
+    flex-wrap: wrap;
       
       
   } .options-9 {
@@ -552,6 +562,7 @@ h2 {
     background-size: contain;
     /* display: flex; */
     flex-direction: row;
+    flex-wrap: wrap;
       
       
   } .options-10 {
@@ -581,6 +592,7 @@ h2 {
     background-size: contain;
     /* display: flex; */
     flex-direction: row;
+    flex-wrap: wrap;
       
       
   } .options-11 {
@@ -610,6 +622,7 @@ h2 {
     background-size: contain;
     /* display: flex; */
     flex-direction: row;
+    flex-wrap: wrap;
       
       
   }

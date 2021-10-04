@@ -254,6 +254,7 @@ ul {
        display: flex;
        flex-direction: row;
        justify-content: space-evenly;
+       flex-wrap: wrap;
    }
    .flex img:hover{
     box-shadow: 0 0 100px rgb(231, 12, 12);

@@ -22,6 +22,7 @@ body::before{
     border-radius: 3px;
     margin-top: 30px;
     margin-bottom: 30px;
+    flex-wrap: wrap;
     
 }
 .child-1{
